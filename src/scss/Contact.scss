@@ -1,0 +1,22 @@
+@use 'main';
+@use 'Home';
+
+.contact {
+	background-color: main.$third-color;
+	color: white;
+	text-align: center;
+	padding: 15vmin 0 5vmin 0;
+	div {
+		margin: 5vmin 0;
+	}
+}
+
+.site-logo {
+	@extend .site-logo;
+	text-align: left;
+	display: inline-block;
+	h2 {
+		font-size: 3.5rem;
+		line-height: 2.5rem;
+	}
+}

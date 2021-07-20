@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Home from './components/Home';
+import Menu from './components/Menu';
+import History from './components/History';
+import About from './components/About';
+import Contact from './components/Contact';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+	const [isMenuOpen, setMenuOpen] = useState(false);
+	return (
+		<>
+			<Home toggleMenu={() => setMenuOpen(!isMenuOpen)} />
+			<Menu
+				toggleMenu={() => setMenuOpen(!isMenuOpen)}
+				isMenuOpen={isMenuOpen}
+			/>
+			<main>
+				<History />
+				<About />
+				<Contact />
+			</main>
+		</>
+	);
 }
-
-export default App;

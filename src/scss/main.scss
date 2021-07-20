@@ -1,0 +1,39 @@
+$secondary-color: #ec4426;
+$third-color: rgb(26, 26, 26);
+$transition: 0.2s ease-in-out;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	overflow-x: hidden;
+	width: 100vw;
+}
+
+body {
+	margin: 0;
+	background-color: $secondary-color;
+	color: white;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+}
+
+.main-section-image {
+	width: 100%;
+	overflow: visible;
+}
+
+.text {
+	margin: 10vmin 0;
+}
+
+.bi {
+	margin-right: 10px;
+}

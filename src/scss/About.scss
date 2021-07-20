@@ -1,0 +1,23 @@
+@use 'main';
+
+.about {
+	background-color: #ffc700;
+	color: black;
+	padding-top: 15vh;
+	text-align: center;
+	padding: 15vmin 5vmin;
+	position: relative;
+	z-index: -1;
+	&::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		z-index: 100;
+		width: 0;
+		height: 0;
+		background: transparent;
+		border-bottom: 15vw solid main.$third-color;
+		border-left: 100vw solid transparent;
+	}
+}

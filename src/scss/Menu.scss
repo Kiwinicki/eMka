@@ -1,0 +1,55 @@
+@use 'main';
+.site-menu {
+	position: fixed;
+	top: 0;
+	right: 0;
+	flex-direction: column;
+	transform: translateX(100vw);
+	transition: transform 0.2s ease-in-out;
+	z-index: 100;
+	background-color: rgba(0, 0, 0, 0.95);
+	width: 100vw;
+	height: 100vh;
+}
+.expanded {
+	transform: translateX(0);
+}
+.menu-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.menu-item {
+	transition: all main.$transition;
+	margin-left: 0;
+	border-left: 3px solid white;
+	padding: 1rem;
+	font-size: 2rem;
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	&:hover {
+		margin-left: 3rem;
+		background-color: white;
+		cursor: pointer;
+		color: black;
+		a {
+			color: black;
+		}
+	}
+}
+.menu-btn {
+	transition: main.$transition;
+	border: 3px solid transparent;
+	padding: 1rem 2rem;
+	width: fit-content;
+	font-size: 2rem;
+	&:hover {
+		border: 3px solid white;
+		background-color: transparent;
+		cursor: pointer;
+		color: white;
+	}
+}
