@@ -22,7 +22,7 @@ export default function Contact() {
 
 		let tl = gsap.timeline({
 			defaults: {
-				duration: 0.7,
+				duration: 0.5,
 			},
 			scrollTrigger: {
 				target: people.current,
@@ -49,7 +49,7 @@ export default function Contact() {
 				{
 					autoAlpha: 1,
 					xPercent: 0,
-					delay: 1,
+					delay: 0.5,
 				}
 			);
 	});

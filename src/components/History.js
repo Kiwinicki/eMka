@@ -24,7 +24,7 @@ export default function History() {
 
 		let tl = gsap.timeline({
 			defaults: {
-				duration: 1,
+				duration: 0.5,
 				ease: 'power3',
 			},
 			scrollTrigger: {

@@ -25,7 +25,7 @@ export default function About() {
 
 		let tl = gsap.timeline({
 			defaults: {
-				duration: 1,
+				duration: 0.5,
 			},
 			scrollTrigger: {
 				trigger: imgElements,
