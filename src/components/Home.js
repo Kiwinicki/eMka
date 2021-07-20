@@ -46,7 +46,7 @@ export default function Home({ toggleMenu }) {
 			.to(
 				hiddenContact.current,
 				{
-					zIndex: 1000,
+					zIndex: 100,
 				},
 				'<'
 			);
