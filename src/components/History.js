@@ -69,8 +69,7 @@ export default function History() {
 					scale: 1,
 				},
 				'<'
-			)
-			.pause();
+			);
 
 		gsap.from(text2.current, {
 			opacity: 0,
@@ -83,7 +82,7 @@ export default function History() {
 	});
 
 	return (
-		<section className="history" id="krotka-historia-fotografii">
+		<section id="history">
 			<div className="text" ref={text}>
 				<h2>Na początek trochę historii</h2>
 				<p>

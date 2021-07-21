@@ -1,14 +1,14 @@
 @use 'main';
 @use 'Home';
 
-.contact {
+#contact {
 	background-color: main.$third-color;
 	color: white;
 	text-align: center;
-	padding: 15vmin 0 5vmin 0;
-	div {
-		margin: 5vmin 0;
-	}
+	// padding: 15vmin 0 5vmin 0;
+	// div {
+	// 	margin: 5vmin 0;
+	// }
 }
 
 .site-logo {

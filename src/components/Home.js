@@ -18,7 +18,7 @@ export default function Home({ toggleMenu }) {
 				start: 'top top',
 			},
 			defaults: {
-				duration: 0.3,
+				duration: 0.5,
 				ease: 'power3',
 			},
 		});
@@ -53,7 +53,7 @@ export default function Home({ toggleMenu }) {
 	});
 
 	return (
-		<section className="home" ref={home} id="home">
+		<section id="home" ref={home}>
 			<header className="site-header">
 				<div className="site-logo" ref={logo}>
 					<h1>eMka</h1>

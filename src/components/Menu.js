@@ -7,26 +7,31 @@ export default function Menu({ isMenuOpen, toggleMenu }) {
 		className += ' expanded';
 	}
 
+	const handleClick = (event, elem) => {
+		event.preventDefault();
+		toggleMenu();
+		document
+			.getElementById(elem)
+			.scrollIntoView({ behavior: 'smooth', block: 'start' });
+	};
+
 	return (
 		<nav className={className}>
 			<button className="menu-btn" onClick={() => toggleMenu()}>
 				Powrót
 			</button>
 			<ul className="menu-list">
-				<li className="menu-item">
-					<a href="#home">Strona główna</a>
+				<li className="menu-item" onClick={(e) => handleClick(e, 'home')}>
+					Strona główna
 				</li>
-				<li className="menu-item">
-					<a href="#history">Historia fotografii</a>
+				<li className="menu-item" onClick={(e) => handleClick(e, 'history')}>
+					Historia fotografii
 				</li>
-				<li className="menu-item">
-					<a href="#about">O nas</a>
+				<li className="menu-item" onClick={(e) => handleClick(e, 'about')}>
+					O nas
 				</li>
-				<li className="menu-item">
-					<a href="#studio">Studio</a>
-				</li>
-				<li className="menu-item">
-					<a href="#contact">Kontakt</a>
+				<li className="menu-item" onClick={(e) => handleClick(e, 'contact')}>
+					Kontakt
 				</li>
 			</ul>
 		</nav>

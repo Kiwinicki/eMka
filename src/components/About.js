@@ -43,7 +43,7 @@ export default function About() {
 	});
 
 	return (
-		<section className="about">
+		<section id="about">
 			<div className="text" ref={text}>
 				<h2>O nas</h2>
 				<p>
