@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/eMka/static/css/main.5daadb3a.chunk.css",
-    "main.js": "/eMka/static/js/main.7fb94aca.chunk.js",
-    "main.js.map": "/eMka/static/js/main.7fb94aca.chunk.js.map",
+    "main.css": "/eMka/static/css/main.a6826a0c.chunk.css",
+    "main.js": "/eMka/static/js/main.5bf2d75d.chunk.js",
+    "main.js.map": "/eMka/static/js/main.5bf2d75d.chunk.js.map",
     "runtime-main.js": "/eMka/static/js/runtime-main.a85cd5f0.js",
     "runtime-main.js.map": "/eMka/static/js/runtime-main.a85cd5f0.js.map",
     "static/js/2.a3906147.chunk.js": "/eMka/static/js/2.a3906147.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.5a939ad0.chunk.js": "/eMka/static/js/3.5a939ad0.chunk.js",
     "static/js/3.5a939ad0.chunk.js.map": "/eMka/static/js/3.5a939ad0.chunk.js.map",
     "index.html": "/eMka/index.html",
-    "static/css/main.5daadb3a.chunk.css.map": "/eMka/static/css/main.5daadb3a.chunk.css.map",
+    "static/css/main.a6826a0c.chunk.css.map": "/eMka/static/css/main.a6826a0c.chunk.css.map",
     "static/js/2.a3906147.chunk.js.LICENSE.txt": "/eMka/static/js/2.a3906147.chunk.js.LICENSE.txt",
     "static/media/contact.c52398ad.svg": "/eMka/static/media/contact.c52398ad.svg",
     "static/media/polaroid.0c3c690d.svg": "/eMka/static/media/polaroid.0c3c690d.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.a85cd5f0.js",
     "static/js/2.a3906147.chunk.js",
-    "static/css/main.5daadb3a.chunk.css",
-    "static/js/main.7fb94aca.chunk.js"
+    "static/css/main.a6826a0c.chunk.css",
+    "static/js/main.5bf2d75d.chunk.js"
   ]
 }
